@@ -1,0 +1,4 @@
+float getHumid(){
+  float h = dht.readHumidity();
+  return h;
+}
