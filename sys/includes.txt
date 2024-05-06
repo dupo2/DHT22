@@ -2,6 +2,5 @@
 #define DHTTYPE DHT22 
 #define DHTPIN 2 
 DHT dht(DHTPIN, DHTTYPE);
-
 String Temp = "";
 String Humid = "";
